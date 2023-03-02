@@ -9,7 +9,7 @@ const Services = () => {
       className='w-full'
       id='services'
     >
-      <div className='relative w-full h-[20rem] '>
+      <div className='relative w-full h-[20rem] mb-3 sm:mb-0 '>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -30,7 +30,7 @@ const Services = () => {
           viewport={{ once: true }}
           className='absolute flex m-auto left-0 right-0 top-[60%] sm:top-[15%] w-auto mt-5 sm:justify-end lg:w-[60rem]'
         >
-          <h2 className='text-zinc-500 text-4xl pb-2 sm:pb-0 text-center  font-serif sm:m-0 sm:text-5xl sm:w-[300px]'>
+          <h2 className='text-zinc-500 text-4xl text-center  font-serif sm:m-0 sm:text-5xl sm:w-[300px]'>
             Montcalm Property Management Services
           </h2>
         </motion.div>

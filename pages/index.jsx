@@ -8,8 +8,6 @@ import Banner from '../components/Banner'
 import Services from '../components/Services'
 import { motion } from 'framer-motion'
 
-export const revalidate = 60
-
 export default function Home({ post }) {
   return (
     <>
@@ -91,5 +89,6 @@ export async function getStaticProps() {
     props: {
       post,
     },
+    revalidate: 60,
   }
 }

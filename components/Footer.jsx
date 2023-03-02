@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import ContactForm from './ContactForm'
 
 const Footer = () => {
   return (
@@ -60,7 +61,8 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <div className='order-1 sm:order-3 sm:w-72'>
+            <ContactForm />
+            {/* <div className='order-1 sm:order-3 sm:w-72'>
               <div id='contact'>
                 <form className='w-full max-w-sm'>
                   <div className='md:flex md:items-center mb-6'>
@@ -121,7 +123,7 @@ const Footer = () => {
                   </div>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

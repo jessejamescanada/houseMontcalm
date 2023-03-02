@@ -35,7 +35,7 @@ export default function Home({ post }) {
           <h2 className={`text-center text-4xl my-6 font-serif`}>
             Featured Properties
           </h2>
-          <div className=' justify-center pb-14 mx-0 md:items-center md:flex-wrap md:flex md:mx-20 md:justify-evenly'>
+          <div className=' justify-center pb-10 sm:pb-0 mx-0 md:items-center md:flex-wrap md:flex md:mx-20 md:justify-evenly'>
             {post.length > 0 &&
               post.map(
                 ({ _id, name, image, slug = post }) =>
@@ -61,7 +61,7 @@ export default function Home({ post }) {
                           width={0}
                           height={0}
                           sizes={'30vw'}
-                          className='w-full  rounded-lg shadow-lg sm:w-[250px] sm:h-[auto]'
+                          className='w-full px-1 sm:px-0 rounded-lg shadow-lg sm:w-[250px] sm:h-[auto]'
                         />
                         <div
                           className={`text-center mt-3 mx-auto font-semibold w-[200px] text-xl text-[#616161]`}

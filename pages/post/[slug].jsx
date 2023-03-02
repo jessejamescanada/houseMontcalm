@@ -47,7 +47,7 @@ const Post = ({ post }) => {
                   alt='image'
                   width={0}
                   height={0}
-                  sizes={'30vw'}
+                  sizes={'40vw'}
                   className='rounded-lg my-1 w-full h-full sm:w-[350px] sm:h-[350px] object-cover'
                 />
               </div>

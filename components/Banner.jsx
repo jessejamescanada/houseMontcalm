@@ -59,6 +59,7 @@ const Banner = () => {
             duration: 0.7,
           }}
           whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
         >
           <Link href={'#properties'}>
             <FaArrowDown

@@ -29,8 +29,10 @@ const Banner = () => {
           viewport={{ once: true }}
           className='absolute m-auto left-0 right-0 top-1/3 w-auto mt-5 lg:w-[60rem]'
         >
-          <h1 className={`text-5xl text-white text-center font-serif`}>
-            Montcalm Property Management2
+          <h1
+            className={`text-4xl text-white text-center font-serif sm:text-5xl`}
+          >
+            Montcalm Property Management
           </h1>
           <p className='text-2xl text-white text-center font-semibold font-serif'>
             Serving Investors Within The Niagara Region

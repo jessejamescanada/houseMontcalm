@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import urlFor from '../lib/urlFor'
+import Image from 'next/image'
 export const RichTextComponents = {
   types: {
     image: ({ value }) => {
@@ -7,7 +8,7 @@ export const RichTextComponents = {
         return null
       }
       return (
-        <img
+        <Image
           className='rounded-lg'
           alt={value.alt || ' '}
           src={urlFor(value).width(420).fit('max').auto('format')}

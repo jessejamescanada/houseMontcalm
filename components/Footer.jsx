@@ -18,10 +18,7 @@ const Footer = () => {
               <p>55 Catherine Street, Unit A</p>
               <p>St. Catharines, Ontario</p>
               <p>L2R 5E9</p>
-              <div className='my-3'>
-                <h4 className='font-semibold'>Office Business Hours</h4>
-                <p>Open 24 hours</p>
-              </div>
+
               <div>
                 <p>
                   Contact:{' '}
@@ -29,9 +26,6 @@ const Footer = () => {
                 </p>
                 <p>
                   Direct: <span className='font-semibold'>289 820 0200</span>
-                </p>
-                <p>
-                  Fax: <span className='font-semibold'>905 682 6353</span>
                 </p>
               </div>
             </div>
@@ -69,6 +63,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <p className='text-center py-2 bg-[#737373]'>
+        2023 website design by{' '}
+        <Link
+          className='pointer text-blue-700'
+          href={'https://www.developer-jesseg.com/'}
+        >
+          Jesse G
+        </Link>
+      </p>
     </div>
   )
 }

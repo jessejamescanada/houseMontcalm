@@ -23,7 +23,7 @@ const NavHead = () => {
           />
         </Link>
       </div>
-      <div className='hidden md:block w-1/3'>
+      <div className='hidden w-1/2 md:block lg:w-1/3'>
         <ul className='flex justify-between font-serif'>
           <Link href={'/'}>
             <li className='text-zinc-600 text-lg hover:underline hover:decoration-[#f7ab0a]'>

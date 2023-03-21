@@ -53,7 +53,7 @@ export default function Home({ post }) {
                     >
                       <Link
                         href={`/post/${encodeURIComponent(slug.current)}`}
-                        className='pointer'
+                        className='pointer '
                       >
                         <Image
                           src={urlFor(image[0]).url()}
@@ -61,7 +61,7 @@ export default function Home({ post }) {
                           width={0}
                           height={0}
                           sizes={'30vw'}
-                          className='w-full px-1 sm:px-0 rounded-lg shadow-lg sm:w-[250px] sm:h-[auto]'
+                          className='w-full px-1 sm:px-0 rounded-lg shadow-lg sm:w-[250px] sm:h-[250px] object-cover'
                         />
                         <div
                           className={`text-center mt-3 mx-auto font-semibold w-[200px] text-xl text-[#616161]`}

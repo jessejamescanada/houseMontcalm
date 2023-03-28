@@ -47,7 +47,7 @@ const Contact = () => {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
     axios({
       method: 'POST',
-      url: 'https://formspree.io/f/xbjkpzyr',
+      url: 'https://formspree.io/f/mlepvwlk',
       data: inputs,
     })
       .then((response) => {

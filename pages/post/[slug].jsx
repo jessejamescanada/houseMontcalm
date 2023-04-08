@@ -7,7 +7,7 @@ import RichTextComponents from '../../components/RichTextComponents'
 import Image from 'next/image'
 import HeadSeo from '../../components/HeadSeo'
 
-export const revalidate = 3600
+export const revalidate = 172800
 
 const Post = ({ post }) => {
   const router = useRouter()
